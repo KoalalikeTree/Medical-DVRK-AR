@@ -25,7 +25,7 @@ cd ~/coppeliar_edu
 ```
 
 
-## Input URDF files (dvrk model) into Coppelia
+## Imput URDF files (dvrk model) into Coppelia
 You should already build your workspace and have dvrk-ros in your source folder
 if not, please following the instruction on
 https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/CatkinBuild
@@ -39,8 +39,8 @@ You can convert other files too. You can see a new URDF file generated in the sa
 
 Then, in the Coppelia top bar, click 
 plugin > URDF import > import > choose the generated urdf file
-
 You should see the model dvrk robot and its joint hierachy appear in the scene
+
 
 
 ## Read the blaser Scene in Coppelia
