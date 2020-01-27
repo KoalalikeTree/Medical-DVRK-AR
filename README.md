@@ -12,13 +12,13 @@ In your Ubuntu terminal
 roscore
 ```
 
+Open a new terminal
 Source the setup.bash file so that later you can import files from your workspace to Vrep
-* This step is crucial for importing urdf file *
+This step is crucial for importing urdf file 
 ```sh
 source ~/.../your_work_space_name/devel/setup.bash
 ```
-
-Open a new terminal and cd to the root directory of coppeliar, then run the .sh file. 
+then cd to the root directory of coppeliar, then run the .sh file. 
 ```sh
 cd ~/coppeliar_edu
 ./coppeliaSim.sh
